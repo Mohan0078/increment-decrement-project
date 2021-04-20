@@ -16,11 +16,12 @@ const TodoList = () => {
     } 
 
     const addItem = () => {
-        // using spread operator and callback function
-
+        
+      // edge case for empty todo
         if(item === "")
         return;
 
+        // using spread operator and callback function
         setNewItem((prevValue) => {
             return [...prevValue, item];
         })
