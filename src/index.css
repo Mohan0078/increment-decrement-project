@@ -33,6 +33,14 @@ h1 {
   text-shadow: 0 2px 2px #000;
 }
 
+.todoNote {
+  color: #20bf6b;
+}
+
+.deleteNote {
+  color: darkorange;
+}
+
 button {
   width: 50px;
   background-color: #8566aa;

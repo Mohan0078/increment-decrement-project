@@ -38,17 +38,20 @@ return (
           <div className="center-div">
           <h1 className='text-center mt-3 text-danger'>Welcome Dost 😄</h1>
           
-          <h5>Note :  1. Single click the delete button to cut what you write</h5>
-          <h5>      2. Double click the delete button to uncut</h5>
+          <h4>Note :</h4>
+          <h5 className="deleteNote">1. Single click the delete button to cut what you write</h5>
+          <h5 className="deleteNote">2. Double click the delete button to uncut</h5>
 
           <br/>
               <h1>Todo List</h1>
           <br/>
-          <h5>For adding a ToDo type something in text box  then click + symbol to add</h5>
+          <h5 className="todoNote">For adding a ToDo type something in text box  then click + symbol to add</h5>
           <br/>
+          
+            <hr/>
           <br/>
           <input type="text" value={item}
-           placeholder="Add an item"
+           placeholder="Type here ..."
               onChange={itemEvent}
           />
           
