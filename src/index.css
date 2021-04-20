@@ -1,13 +1,105 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.main-div {
+  width: 100%;
+  height: auto;
+  background: #2b89ef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.center-div {
+  width: 25%;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  background: transparent;
+  background-color: #8566aa;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 2px 2px #000;
+}
+
+button {
+  width: 50px;
+  background-color: #8566aa;
+  color: #000;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #20bf6b;
+}
+
+input {
+  width: 50%;
+  height: 7vh;
+  top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 20x solid #8566aa;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  outline: none;
+  text-align: center;
+}
+
+.btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-green:hover {
+  color: #2ed573;
+}
+
+.btn-red:hover {
+  color: #ff4757;
+}
+
+.todo-style {
+  /* text-align: center; */
+  margin-left: 29px;
+}
+
+.deleteIcon {
+  color: #000;
+}
+
+.newBtn {
+  width: 150px;
+}
+.newBtn:hover {
+  color: #2ed573;
+}
+
+.deleteIcon:hover {
+  color: #ff4757;
+}
+
+@media (max-width: 768px) {
+  .center-div {
+    width: 90%;
+  }
+
+  button {
+    width: 150px;
+    color: #fff;
+    font-size: 30px;
+  }
 }

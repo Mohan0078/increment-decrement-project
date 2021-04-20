@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Card from './Card';
+import TodoList from './TodoList';
+import Bootstrape_Demo from './Bootstrape_Demo';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     
+    <>
+    <TodoList/>
+     {/* <Card/>  */}
+     <br/><br/>
+     {/* <Bootstrape_Demo/> */}
+    </>
   );
-}
+};
 
 export default App;
