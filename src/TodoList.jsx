@@ -64,7 +64,9 @@ return (
         <br/>
         <br/>
         <br/>
-        <h5><a href="https://mohan0078.github.io/" target="_blanck">About Mohan</a></h5>
+        <h4 style={{textAlign:"center"}}><a href="https://aboutmohanpatel.netlify.app/" target="_blanck">About Mohan</a></h4>
+
+        <br /> <br /> <br />
           </div>
 
       </div>  
