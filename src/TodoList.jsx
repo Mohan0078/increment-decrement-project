@@ -36,7 +36,7 @@ return (
       
       
           <div className="center-div">
-          <h1 className='text-center mt-3 text-danger'>Welcome {name} 😄</h1>
+          <h1 className='text-center mt-3 text-danger'>Welcome Dost 😄</h1>
           
           <h5>Note :  1. Single click the delete button to cut what you write</h5>
           <h5>      2. Double click the delete button to uncut</h5>
