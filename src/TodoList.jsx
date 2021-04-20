@@ -44,6 +44,9 @@ return (
           <br/>
               <h1>Todo List</h1>
           <br/>
+          <h5>For adding a ToDo type something in text box  then click + symbol to add</h5>
+          <br/>
+          <br/>
           <input type="text" value={item}
            placeholder="Add an item"
               onChange={itemEvent}
