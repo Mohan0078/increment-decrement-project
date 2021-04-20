@@ -39,8 +39,8 @@ return (
           <h1 className='text-center mt-3 text-danger'>Welcome Dost 😄</h1>
           
           <h4>Note :</h4>
-          <h5 className="deleteNote">1. Single click the delete button to cut what you write</h5>
-          <h5 className="deleteNote">2. Double click the delete button to uncut</h5>
+          <h5 className="deleteNote">1. Single click the delete icon to cut what you write</h5>
+          <h5 className="deleteNote">2. Double click the delete icon to uncut</h5>
 
           <br/>
               <h1>Todo List</h1>
