@@ -29,7 +29,6 @@ const TodoList = () => {
         setItem("");
     }
 
-    const [name, setName] = useState("User");
 
 return (
     <>
